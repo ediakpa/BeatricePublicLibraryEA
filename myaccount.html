@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap"
+      rel="stylesheet"
+    />
     <title>My Account</title>
     <style>
       body {
@@ -12,14 +18,20 @@
         /* background-color: rgba(0, 255, 255, 0.432); */
       }
     </style>
-</head>
-<body>
-    <header>
+  </head>
+  <div class="overlay">
+    <body>
+      <header>
         <nav class="topnav">
           <ul>
             <li><a href="index_homepage.html">Welcome</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="catalog.html">Library Catalog</a></li>
+            <li>
+              <a href="catalog.html"
+                ><img class="mag" src="./Assets/searchicon.png" alt="" />
+                &nbsp;Library Catalog</a
+              >
+            </li>
             <li><a href="events.html">Events</a></li>
             <li><a href="donate.html">Donate</a></li>
             <li><a href="myaccount.html">My Account</a></li>
@@ -27,14 +39,18 @@
           </ul>
         </nav>
       </header>
-      <img class="logo" src="./Assets/image01.png" alt="">
+      <img class="logo" src="./Assets/image01.png" alt="" />
       <div class="rectangle1"></div>
-</body>
-<footer class="footer">Follow Us
-  <footer><img src="./Assets/FacebookIcon.png" alt="">
-  <img src="./Assets/instagram.png" alt="">
-  <img src="./Assets/twitter.png" alt="">
-  <img src="./Assets/tumblr.png" alt="">
-  <img src="./Assets/youtube.png" alt=""></footer>
-</footer>
+    </body>
+    <footer class="footer">
+      Follow Us
+      <footer>
+        <img src="./Assets/FacebookIcon.png" alt="" />
+        <img src="./Assets/instagram.png" alt="" />
+        <img src="./Assets/twitter.png" alt="" />
+        <img src="./Assets/tumblr.png" alt="" />
+        <img src="./Assets/youtube.png" alt="" />
+      </footer>
+    </footer>
+  </div>
 </html>

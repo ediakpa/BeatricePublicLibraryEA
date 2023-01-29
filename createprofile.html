@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Create Profile</title>
+    <style>
+      body {
+        background-image: url("Assets/SignIn.png");
+        /* background-color: rgba(0, 255, 255, 0.432); */
+      }
+    </style>
+  </head>
+  <div class="overlay">
+    <body>
+      <header>
+        <nav class="topnav">
+          <ul>
+            <li><a href="index_homepage.html">Welcome</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="catalog.html">Library Catalog</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="myaccount.html">My Account</a></li>
+            <li><a href="signin.html">Sign In</a></li>
+          </ul>
+        </nav>
+      </header>
+      <img class="logo" src="./Assets/image01.png" alt="" />
+      <div class="rectangle1">
+        <h1>Welcome to The Beatrice Public Library</h1>
+        <form action="server.php">
+          <div class="details">
+            <div class="label">
+              <label for="name">First and Last Name:</label>
+            </div>
+            <div class="errorMsg"></div>
+            <input type="text" id="name" />
+          </div>
+          <div class="details">
+            <div class="label">
+              <label for="email">Email Address:</label>
+            </div>
+            <div class="errorMsg"></div>
+            <input type="email" id="email" />
+          </div>
+          <div class="details">
+            <div class="label">
+              <label for="pass1">Password:</label>
+            </div>
+            <div class="errorMsg"></div>
+            <input type="password" id="pass1" />
+          </div>
+          <div class="details">
+            <input type="submit" id="submit" value="Sign Up" class="btn" />
+          </div>
+          <p>Sign Up With:</p>
+          <div class="iconsigns">
+            <img src="./Assets/FacebookIcon.png" alt="" />
+            <img src="./Assets/apple.png" alt="" />
+            <img src="./Assets/google.png" alt="" />
+          </div>
+        </form>
+        <p>Already have an account? <a href="signin.html">Sign In Here</a></p>
+      </div>
+    </body>
+    <footer class="footer">
+      Follow Us
+      <footer>
+        <img src="./Assets/FacebookIcon.png" alt="" />
+        <img src="./Assets/instagram.png" alt="" />
+        <img src="./Assets/twitter.png" alt="" />
+        <img src="./Assets/tumblr.png" alt="" />
+        <img src="./Assets/youtube.png" alt="" />
+      </footer>
+    </footer>
+  </div>
+</html>

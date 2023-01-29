@@ -533,3 +533,52 @@ form p {
     width: 8%;
     /* margin-top: -30px; */
 }
+
+/* My Account */
+.edit img {
+    width: 10%;
+    border: none;
+}
+
+.rectangle1 .edit {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: -70px;
+}
+
+.rectangle1 .check {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* margin-top: -480px; */
+    color: #4E4D4D;
+}
+
+.rectangle1 .history ul {
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    color: #4E4D4D;
+}
+
+.rectangle1 .favebook {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: -300px;
+    color: #4E4D4D;
+}
+
+.rectangle1 .favor ul {
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    margin-top: -500px;
+    border: none;
+    list-style-type: none;
+    color: #4E4D4D;
+}

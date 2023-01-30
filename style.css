@@ -541,44 +541,75 @@ form p {
 }
 
 .rectangle1 .edit {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    margin: auto;
-    margin-top: -70px;
+    margin: auto; */
+    position: absolute;
+    margin-top: -540px;
 }
 
 .rectangle1 .check {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: auto; */
     /* margin-top: -480px; */
     color: #4E4D4D;
 }
 
+.rectangle1 .history {
+    position: absolute;
+    margin-top: -200px;
+}
+
 .rectangle1 .history ul {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* margin: auto; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
     text-decoration: none;
     border: none;
     color: #4E4D4D;
+    margin-top: -10px;
+}
+
+.rectangle1 .history ul a {
+    text-decoration: none;
+    color: rgb(163, 93, 163);
+    /* background-color: white; */
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .rectangle1 .favebook {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: -300px;
+    /* display: flex;
+    flex-direction: column; */
+    /* margin: auto;
+    margin-top: -300px; */
     color: #4E4D4D;
 }
 
+.rectangle1 .favor {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -100px;
+}
+
 .rectangle1 .favor ul {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* margin: auto; */
-    margin-top: -500px;
+    margin-top: -10px;
     border: none;
+    text-decoration: none;
     list-style-type: none;
     color: #4E4D4D;
+    padding-left: 0px;
+}
+
+.rectangle1 .favor ul a {
+    text-decoration: none;
+    color: rgb(163, 93, 163);
+    /* background-color: white; */
+    border-radius: 10px;
+    font-weight: bold;
 }

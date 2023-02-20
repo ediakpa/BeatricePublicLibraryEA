@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,14 +13,13 @@
     />
     <title>Donate</title>
     <style>
-      body {
+      /* body {
         background-image: url("Assets/Homepage.png");
-        /* background-color: rgba(0, 255, 255, 0.432); */
-      }
+      } */
     </style>
   </head>
-  <div class="overlay">
-    <body>
+  <body>
+      <div class="overlay">
       <header>
         <nav class="topnav">
           <ul>
@@ -40,11 +39,28 @@
           </ul>
         </nav>
       </header>
-      <img class="logo" src="./Assets/image01.png" alt="" />
+      <div class="hero">
+        <div class="logo_div"><img class="logo" src="./Assets/image01.png" alt="" /></div>
       <div class="rectangle1">
         <h1><u>Location + Hours</u></h1>
-        <br />
-        <div class="address">
+        <div class="details">
+          <div class="address1">
+            <h4>Address</h4>
+            <p>203 Beatrice Lane Beatrix, CT 06460</p>
+          </div>
+          <div class="hours1">
+            <u><b>Hours:</b></u>
+            <p>Sunday - Closed <br>
+            Monday - 10am to 6pm <br>
+            Tuesday - 10am to 6pm <br>
+            Wednesday - 10am to 6pm <br>
+            Thursday - 10am to 6pm <br>
+            Friday - 3pm to 8pm <br>
+            Saturday - 9am to 8pm</p>
+          </div>
+        </div>
+        <!-- <br /> -->
+        <!-- <div class="address">
           <p>
             <u><b>Address:</b></u>
           </p>
@@ -64,9 +80,10 @@
           <p>Thursday - 10am to 6pm</p>
           <p>Friday - 3pm to 8pm</p>
           <p>Saturday - 9am to 8pm</p>
-        </div>
+        </div> -->
         <hr />
         <h1><u>Donations</u></h1>
+        <br>
         <div class="donations">
           <p>
             The Beatrice Public Library grateully accepts gifts, donations and
@@ -81,16 +98,16 @@
         </div>
         <button class="bot2">Donate Here</button>
       </div>
-    </body>
-    <footer class="footer">
-      <p><a href="#">Follow Us</a></p> 
+    </div>
       <footer>
+        <p class="followfooter"><a href="#">Follow Us</a></p>
+        <div class="socialicons">
         <img src="./Assets/FacebookIcon.png" alt="" />
         <img src="./Assets/instagram.png" alt="" />
         <img src="./Assets/twitter.png" alt="" />
         <img src="./Assets/tumblr.png" alt="" />
         <img src="./Assets/youtube.png" alt="" />
+        </div>
       </footer>
-    </footer>
-  </div>
+  </body>
 </html>

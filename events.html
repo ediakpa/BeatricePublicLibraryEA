@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,8 +19,8 @@
       }
     </style>
   </head>
-  <div class="overlay">
-    <body>
+  <body>
+    <div class="overlay">
       <header>
         <nav class="topnav">
           <ul>
@@ -36,33 +36,41 @@
               >
             </li>
             <li><a href="myaccount.html">My Account</a></li>
-            <div class="signin"><li><a href="signin.html">Sign In</a></li></div>
+            <div class="signin">
+              <li><a href="signin.html">Sign In</a></li>
+            </div>
           </ul>
         </nav>
       </header>
-      <img class="logo" src="./Assets/image01.png" alt="" />
-      <div class="rectangle1">
-        <h1><u>Event Calendar</u></h1>
-        <p class="eventline">View and Register for Events</p>
-        <div class="leftpic">
-          <img src="Assets/ChildEvents1.png" alt="" />
-          <button>Child+Teen Events</button>
+      <div class="hero">
+        <div class="logo_div">
+          <img class="logo" src="./Assets/image01.png" alt="" />
         </div>
-        <div class="rightpic">
-          <img src="Assets/AdultEvents1.png" alt="" />
-          <button>Adult Events</button>
+        <div class="rectangle1">
+          <h1><u>Event Calendar</u></h1>
+          <p class="eventline">View and Register for Events</p>
+          <div class="allevents">
+            <div class="leftpic">
+              <img src="Assets/ChildEvents1.png" alt="" />
+              <button>Child+Teen Events</button>
+            </div>
+            <div class="rightpic">
+              <img src="Assets/AdultEvents1.png" alt="" />
+              <button>Adult Events</button>
+            </div>
+          </div>
         </div>
       </div>
-    </body>
-    <footer class="footer">
-      <p><a href="#">Follow Us</a></p>
       <footer>
-        <img src="./Assets/FacebookIcon.png" alt="" />
-        <img src="./Assets/instagram.png" alt="" />
-        <img src="./Assets/twitter.png" alt="" />
-        <img src="./Assets/tumblr.png" alt="" />
-        <img src="./Assets/youtube.png" alt="" />
+        <p class="followfooter"><a href="#">Follow Us</a></p>
+        <div class="socialicons">
+          <img src="./Assets/FacebookIcon.png" alt="" />
+          <img src="./Assets/instagram.png" alt="" />
+          <img src="./Assets/twitter.png" alt="" />
+          <img src="./Assets/tumblr.png" alt="" />
+          <img src="./Assets/youtube.png" alt="" />
+        </div>
       </footer>
-    </footer>
-  </div>
+    </div>
+  </body>
 </html>

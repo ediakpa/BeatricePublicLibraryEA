@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,15 +13,13 @@
     />
     <title>Beatrice Public Library</title>
     <style>
-      body {
+      /* body {
         background-image: url("Assets/Homepage.png");
-        /* background-color: rgba(0, 255, 255, 0.432);
-        background-blend-mode: multiply; */
-      }
+      } */
     </style>
   </head>
-  <div class="overlay">
-    <body>
+  <body>
+    <div class="overlay">
       <header>
         <nav class="topnav">
           <ul>
@@ -43,26 +41,38 @@
           </ul>
         </nav>
       </header>
-      <img class="logo" src="./Assets/image01.png" alt="" />
-      <div class="rectangle1">
-        <div class="image1"><img src="./Assets/HMPG_Image.png" alt="" /></div>
-        <p class="welcome">Welcome to the</p>
-        <h1 class="beatrice">Beatrice Public Library</h1>
-        <p class="encourage">
-          where we encourage and assist in life-long learning
-        </p>
-        <button class="bot1">SEARCH CATALOG</button>
+      <div class="container">
+        <div class="hero">
+          <div class="logo_div">
+            <img class="logo" src="./Assets/image01.png" alt="" />
+          </div>
+          <div class="rectangle1">
+            <div class="image1">
+              <img src="./Assets/HMPG_Image.png" alt="" />
+            </div>
+            <br />
+            <p class="welcome">Welcome to the</p>
+            <br />
+            <h1 class="beatrice">Beatrice Public Library</h1>
+            <br />
+            <p class="encourage">
+              where we encourage and assist in life-long learning
+            </p>
+            <br />
+            <button class="bot1">SEARCH CATALOG</button>
+          </div>
+        </div>
+        <footer>
+          <p class="followfooter"><a href="#">Follow Us</a></p>
+          <div class="socialicons">
+            <img src="./Assets/FacebookIcon.png" alt="" />
+            <img src="./Assets/instagram.png" alt="" />
+            <img src="./Assets/twitter.png" alt="" />
+            <img src="./Assets/tumblr.png" alt="" />
+            <img src="./Assets/youtube.png" alt="" />
+          </div>
+        </footer>
       </div>
-    </body>
-    <footer class="footer">
-      <p><a href="#">Follow Us</a></p>
-      <footer>
-        <img src="./Assets/FacebookIcon.png" alt="" />
-        <img src="./Assets/instagram.png" alt="" />
-        <img src="./Assets/twitter.png" alt="" />
-        <img src="./Assets/tumblr.png" alt="" />
-        <img src="./Assets/youtube.png" alt="" />
-      </footer>
-    </footer>
-  </div>
+    </div>
+  </body>
 </html>

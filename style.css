@@ -78,7 +78,7 @@ header .topnav ul {
     display: flex;
     /* grid-template-columns: repeat(8, auto); */
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
 }
 
 /* @media (max-width: 1300px) {
@@ -705,7 +705,7 @@ header {
     /* background-color: yellow; */
 }
 .topnav ul li {
-    width: 30%;
+    /* width: 30%; */
     height: 40px;
 }
 .rectangle1 {
@@ -714,6 +714,8 @@ header {
 }
 .logo {
     width: 30%;
+    top: 43%;
+    left: -10px;
 }
 
 }

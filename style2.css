@@ -68,12 +68,14 @@ header .topnav {
     height: 100%;
     border: 10px solid transparent;
     /* background-color: #46DABFB2; */
+    padding: 1px 89px 1px 89px;
 }
 
 header .topnav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     /* width: 100%; */
 }
 
@@ -407,6 +409,10 @@ hr {
     margin-top: 50px;
 }
 
+.catlist li {
+    margin-top: 10px;
+}
+
 /* .rectangle1 .bottomrow {
     margin: auto;
     margin-top: 1px;
@@ -587,12 +593,14 @@ form p {
     position: absolute;
     /* margin: auto; */
     margin-top: -250px;
-    left: 1100px;
+    /* left: 950px; */
+    right: -70px;
 }
 
 .title1 {
-    margin: auto;
-    margin-top: 12px;
+    /* margin: auto; */
+    margin-top: 50px;
+    margin-left: 40px;
 }
 
 /* Remove from Favorites Button */
@@ -605,13 +613,13 @@ form p {
 
 .rectangle1 .shoesstar {
     border: none;
-    margin: auto;
+    /* margin: auto; */
     margin-bottom: 10px;
     width: 65%;
 }
 
 .rectangle1 .checkout {
-    margin: auto;
+    /* margin: auto; */
     margin-bottom: 30px;
 }
 
@@ -767,7 +775,7 @@ form p {
         align-items: center;
     }
     .topnav ul li {
-        width: 30%;
+        /* width: 30%; */
         height: 40px;
     }
     .hero {

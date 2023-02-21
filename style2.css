@@ -82,6 +82,10 @@ header .topnav ul {
 header .topnav ul li {
     margin-top: 15px;
     /* previously 30px */
+    /* added below */
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 header .topnav ul li a {
@@ -805,6 +809,10 @@ form p {
     /* ABOUT */
     .statement {
         padding: 30px;
+    }
+
+    .rectangle1 button {
+        width: 50%;
     }
 
 

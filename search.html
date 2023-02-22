@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,15 +19,16 @@
       }
     </style>
   </head>
-  <div class="overlay">
-    <body>
+  <body>
+    <div class="overlay">
       <header>
         <nav class="topnav">
           <ul>
             <li><a href="index_homepage.html">Welcome</a></li>
             <li><a href="about.html">About</a></li>
             <li>
-              <a href="catalog.html">Library Catalog</a></li>
+              <a href="catalog.html">Library Catalog</a>
+            </li>
             <li><a href="events.html">Events</a></li>
             <li><a href="donate.html">Donate</a></li>
             <li>
@@ -37,11 +38,14 @@
               >
             </li>
             <li><a href="myaccount.html">My Account</a></li>
-            <div class="signin"><li><a href="signin.html">Sign In</a></li></div>
+            <div class="signin">
+              <li><a href="signin.html">Sign In</a></li>
+            </div>
           </ul>
         </nav>
       </header>
-      <img class="logo" src="./Assets/image01.png" alt="" />
+      <div class="hero">
+      <div class="logo_div"><img class="logo" src="./Assets/image01.png" alt="" /></div>
       <div class="rectangle1">
         <h1>Browse Our Catalog</h1>
         <div class="search">
@@ -77,16 +81,17 @@
           <button>Newest Titles</button>
         </div>
       </div>
-    </body>
-    <footer class="footer">
-      <p><a href="#">Follow Us</a></p>
+    </div>
       <footer>
+        <p class="followfooter"><a href="#">Follow Us</a></p>
+        <div class="socialicons">
         <img src="./Assets/FacebookIcon.png" alt="" />
         <img src="./Assets/instagram.png" alt="" />
         <img src="./Assets/twitter.png" alt="" />
         <img src="./Assets/tumblr.png" alt="" />
         <img src="./Assets/youtube.png" alt="" />
+        </div>
       </footer>
-    </footer>
-  </div>
+    </div>
+  </body>
 </html>

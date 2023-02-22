@@ -399,12 +399,13 @@ hr {
 footer {
     /* display: block; */
     display: flex;
+    flex-direction: column;
     gap: 20px;
     /* position: absolute; */
     /* margin-left: 250px; */
-    margin-top: 10px;
+    margin-top: 50px;
     /* width: 10%; */
-    /* align-items: center; */
+    align-items: center;
     /* text-align: center; */
     /* text-decoration-line: underline; */
 }
@@ -419,6 +420,12 @@ footer {
 .followfooter a {
     color: #4E4D4D;
     font-weight: bold;
+}
+
+.socialicons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 /* footer img {
@@ -684,7 +691,7 @@ form p {
 
 /* =============RESPONSIVESS================== */
 
-@media (min-width: 300px) and (max-width: 698px) {
+@media (min-width: 300px) and (max-width: 768px) {
 header {
     width: 100%;
     height: auto;
@@ -714,8 +721,39 @@ header {
 }
 .logo {
     width: 30%;
-    top: 43%;
+    top: 400px;
     left: -10px;
+}
+
+form .details .label {
+    margin-left: 40px;
+}
+
+form .details .btn {
+    margin-left: 20px;
+    
+}
+
+form .details input {
+    padding: 0px;
+}
+
+.rectangle1 h1 {
+    display: flex;
+    text-align: center;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+}
+
+.iconsigns {
+    margin-left: 50px;
+}
+
+.iconsigns img {
+    width: 20%;
 }
 
 }
